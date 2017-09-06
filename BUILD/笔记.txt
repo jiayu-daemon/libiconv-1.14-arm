@@ -1,0 +1,3 @@
+ARM开发板上iconv_open("utf-8", "gb2312") 调用失败的解决方法
+
+在rcS 中export LD_PRELOAD=/lib/preloadable_libiconv.so
